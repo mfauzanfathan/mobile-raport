@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/updateNis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input NIS"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/updateUts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input UTS"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/updateUas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input UAS"
+        android:minHeight="48dp" />
+
+
+</LinearLayout>
